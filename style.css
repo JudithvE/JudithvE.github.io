@@ -1,4 +1,46 @@
+html {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 body {
+    position: absolute;
     background-color: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 0px;
+    max-width: 1000px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    height: 100%;
+}
+#intro {
+    position: absolute;
+    padding-top: 100px;
+    left: 60px;
+    font-size: 40px;
+}
+#pfp {
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    border-radius: 80px 0px 0px 80px;
+}
+#bubble1 {
+    position: absolute;
+    top: 350px;
+    width: 100px;
+    height: 250px;
+    background-color: rosybrown;
+    border-radius: 0px 80px 80px 0px;
+    transition-duration: 500ms;
+}
+#bubble1:hover {
+    width: 500px;
+
+  
 }
