@@ -1,12 +1,16 @@
+@font-face {
+    font-family: 'allison';
+    src: url('Allison_Script.otf');
+}
 html {
-    background-image: url('background.png');
+    background-color: #f5f5f5;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 body {
     position: absolute;
-    background-color: aquamarine;
+    background-color:#f5f5f5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     margin: 0px;
@@ -20,9 +24,12 @@ body {
 }
 #intro {
     position: absolute;
+    font-family: 'allison';
+    font-style: oblique;
+    color: #A5BE7E;
     padding-top: 100px;
     left: 60px;
-    font-size: 40px;
+    font-size: 100px;
 }
 #pfp {
     width: 300px;
@@ -30,6 +37,13 @@ body {
     right: 0px;
     top: 10px;
     border-radius: 80px 0px 0px 80px;
+}
+#plants {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
 }
 #bubble1 {
     position: absolute;
@@ -49,7 +63,7 @@ body {
     top: 1000px;
     width: 100px;
     height: 250px;
-    background-color: rosybrown;
+    background-color: #bc8f8f;
     border-radius: 80px 0px 0px 80px;
     transition-duration: 500ms;
     right: 0px;
@@ -105,4 +119,49 @@ body {
     top: 0px;
     transform: translateY(-110%);
     font-size: 25px;
+}
+#pollquestion {
+    position: absolute;
+    top: 1400px;
+    font-size: 50px;
+    font-family: Arial;
+    color: #A5BE7E;
+    width: 100%;
+    text-align: center;
+
+}
+#poll {
+    position: absolute;
+    top: 1500px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 150px;
+    background-color: #A5BE7E;
+    border-radius: 80px 80px 80px 80px;
+}
+#poll div {
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+}
+#poll div:hover {
+    background-color: #788a63;
+}
+#poll div img {
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+#logo1 {
+    left: 0px;
+    border-radius: 80px 0px 0px 80px;
+}
+#logo2 {
+    right: 0px;
+    border-radius: 0px 80px 80px 0px;
+
 }
