@@ -54,7 +54,7 @@ body {
     top: 350px;
     width: 100px;
     height: 250px;
-    left: 10px;
+    left: 0px;
     background-color: #D17F6B;
     border-radius: 80px 80px 80px 80px;
     transition-duration: 500ms;
@@ -70,7 +70,7 @@ body {
     background-color: #D17F6B;
     border-radius: 80px 80px 80px 80px;
     transition-duration: 500ms;
-    right: 10px;
+    right: 0px;
 }
 #bubble2:hover {
     width: 500px; 
