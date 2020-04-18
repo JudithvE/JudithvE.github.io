@@ -26,7 +26,7 @@ body {
     position: absolute;
     font-family: 'allison',Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-weight: 200px;
+    font-weight: 250px;
     color: #A5BE7E;
     padding-top: 100px;
     left: 50%;
@@ -120,8 +120,9 @@ body {
 #musictext {
     position: absolute;
     top: 0px;
-    font-size: 35px;
-    transform: translate(90%,-130%);
+    font-family: 'allison', Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    transform: translate(90%,-140%);
     color: #788a63;
 }
 #pollquestion {
