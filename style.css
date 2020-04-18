@@ -24,7 +24,7 @@ body {
 }
 #intro {
     position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'allison',Arial, Helvetica, sans-serif;
     font-style: italic;
     color: #A5BE7E;
     padding-top: 100px;
