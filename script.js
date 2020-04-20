@@ -28,7 +28,6 @@ $(() => {
 		startdragx = e.clientX
 		console.log($('#bolletje')[0].style.left)
 		startdragprogress = Number($('#bolletje')[0].style.left.replace('%' , ''))
-
 	})
 	$('body').on('mouseup', () => { draggingbolletje = false})
 

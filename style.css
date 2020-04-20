@@ -28,10 +28,11 @@ body {
     font-style: italic;
     font-weight: 250px;
     color: #A5BE7E;
-    padding-top: 100px;
+    padding-top: 40px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 100px;
+    text-align: center;
 }
 #pfp {
     display: none;
