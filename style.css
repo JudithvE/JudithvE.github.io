@@ -35,13 +35,13 @@ body {
     text-align: center;
 }
 #pfp {
-    display: none;
+    /*display: none;
+    box-shadow: 10px 10px 5px #808080;*/
     width: 300px;
     position: absolute;
     right: 0px;
     top: 50px;
     border-radius: 50px 50px 50px 50px;
-    box-shadow: 10px 10px 5px #808080;
 }
 #plants {
     width: 400px;
