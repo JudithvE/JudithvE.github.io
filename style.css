@@ -24,15 +24,15 @@ body {
 }
 #intro {
     position: absolute;
-    font-family: 'allison',Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: 250px;
     color: #A5BE7E;
     padding-top: 40px;
-    left: 50%;
+    left: 20%;
     transform: translateX(-50%);
     font-size: 100px;
-    text-align: center;
+    text-align: left;
 }
 #pfp {
     /*display: none;
