@@ -44,6 +44,6 @@ $(() => {
 		profile.attr('src', 'profile3.png')
 	})
 	profile.on('mouseleave', () => {
-		profile.attr('src', 'profile2.png')
+		profile.attr('src', 'profile4.png')
 	})
 })
