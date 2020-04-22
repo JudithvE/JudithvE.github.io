@@ -32,7 +32,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     font-size: 100px;
-    text-align: left;
+    text-align: center;
 }
 #pfp {
     /*display: none;
