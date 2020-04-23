@@ -5,29 +5,82 @@
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.3/howler.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="./script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     </head>
     <body>
-       <span id="intro">Hi,<br> I'm Judith</span><br>
-        <img id="pfp" src="./profile3.png">
-        <div id="bubble1"></div>
-        <div id="bubble2"></div>
-        <div id="pollquestion">Which logo do you prefer?</div>
-        <div id="poll">
-            <div id="logo1">
-                <img src="./Logo1.png">
+        <div id="header">
+            <img src="./Logo1.png">
+        </div>
+
+        <div id="topnav">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Portfolio</a></li>
+        </div>
+        <div id="card1" class="card">
+            <div class="leftcolumn">
+                <span id="intro">Hi,<br> I'm Judith</span>
             </div>
-            <div id="logo2">
-                <img src="./Logo2.png">
+            <div class="rightcolumn">
+                <img id="pfp" src="./profile3.png">
             </div>
         </div>
-        <img id="plants" src="./Plants withoutbackground.png"></img>
-        <div id="musicplayer">
-            <img id="playpause" src="play.png">
-            <div id="line">
-                <div id="progress"></div>
-                <div id="bolletje"></div>
-                <span id="musictext">Pero Asi</span>
+
+        <img id="elegantline" src="line.png">
+        
+        <div id="card2" class="card">
+            <div class="leftcolumn">
+                <h2>About me</h2>
+                <p>I am a second year student at the TU/e of Sustainable Innovation & Industrial Design. Just 'programming'
+                    a personal website.
+                </p>
+                </div>
+            <div class="rightcolumn">
+                <img id="Me" src="">
             </div>
         </div>
+
+        <div id="card3" class="card">
+            <div class="rightcolumn">
+                <h2>Portfolio</h2>
+                <p> Some text about allllll my experiences</p>
+            </div>
+        </div>
+
+        <div id="card4" class="card">
+            <h2>Other</h2>
+            <div id="musicplayer">
+                <p id="musictext">Pero Asi</p>
+                <img id="playpause" src="play.png">
+                <div id="line">
+                    <div id="progress"></div>
+                    <div id="bolletje"></div>
+                </div>
+            </div>
+            <div id="poll">
+                <p id="pollquestion">Which logo would you prefer?</p>
+                <div id="pollbox" class="pollbox">
+                    <div id="logo1">
+                        <img src="./Logo1.png">
+                    </div>
+                    <div id="logo2">
+                        <img src="./Logo2.png">
+                    </div>
+               </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <img id="plants" src="./Plants withoutbackground.png"></img>
+        
+        <!-- The social media icon bar -->
+            <div class="icon-bar">
+            <a href="https://www.facebook.com/judith.vanenckevort" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.google.nl/" class="google"><i class="fa fa-google"></i></a>
+            <a href="https://www.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+
     </body>
 </html>

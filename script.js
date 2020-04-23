@@ -46,4 +46,10 @@ $(() => {
 	profile.on('mouseleave', () => {
 		profile.attr('src', 'profile3.png')
 	})
+	/*var screenHeight = screen.height;
+	if (screenHeight < 800) {
+	  $('body').css('zoom', 0.8);
+	} else {
+		 $('body').css('zoom', 1);
+	}*/
 })
