@@ -10,6 +10,7 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    scroll-behavior: smooth;
 }
 body {
     position: absolute;
