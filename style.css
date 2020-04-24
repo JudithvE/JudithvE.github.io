@@ -126,6 +126,8 @@ h3 {
     font-family: 'allison', Arial, Helvetica, sans-serif;
     color: #e0be67;
     font-size: 50px;
+    padding: 0;
+    margin: 0;
 }
 
 #elegantline {
