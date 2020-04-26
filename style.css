@@ -109,8 +109,8 @@ li a.active {
 #pfp {
     position: relative;
     z-index: -2;
-    top: 80px;
-    width: 300px;
+    top: 20px;
+    width: 400px;
     margin: 100px;
 }
 h2 {
