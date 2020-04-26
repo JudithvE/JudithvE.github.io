@@ -38,7 +38,7 @@ $(() => {
 		console.log(newprogress, startdragprogress, b, Number($('#line').width()))
 		sound.seek(sound.duration()*(newprogress/100))
 	})
-	
+	/*
 	let profile = $('#pfp')      
 	profile.on('mouseenter', () => {
 		profile.attr('src', 'profile4.png')
