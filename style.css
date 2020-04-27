@@ -64,13 +64,13 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    top: 0px;
+    top: 0;
     z-index: +1;
     overflow: hidden;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     list-style-type: none;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 50px;
     opacity: 50%;
     width: 100%;
     background-color: #ceccc9;
@@ -138,10 +138,16 @@ h3 {
     left: 50%;
 }
 
-
+#skillsbar {
+  position: relative;
+  width: 600px;
+  top: 300px;
+}
 
 .timeline {
     position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: -1;
     max-width: 900px;
     margin: 0 auto;
