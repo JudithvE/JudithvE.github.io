@@ -37,7 +37,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     overflow-x: hidden;
-    height: 3000px;
+    height: 3680px;
     user-select: none;
 }
 #header {
@@ -65,6 +65,7 @@ body {
     margin: 0;
     padding: 0;
     top: 0;
+    left: 50%;
     z-index: +1;
     overflow: hidden;
     position: -webkit-sticky; /* Safari */
@@ -109,6 +110,7 @@ li a.active {
 }
 #pfp {
     position: relative;
+    right: 50px;
     z-index: -2;
     top: 20px;
     width: 400px;
@@ -140,7 +142,7 @@ h3 {
 
 #skillsbar {
   position: relative;
-  width: 600px;
+  width: 450px;
   top: 300px;
 }
 
