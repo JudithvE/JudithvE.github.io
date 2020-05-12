@@ -369,9 +369,7 @@ h3 {
   to {opacity: 1}
 }
 
-#other {
-     display: none;
-}
+
 
 #musicplayer { 
     position: absolute;
@@ -497,7 +495,7 @@ from the top of the screen) */
 
 
 /* LINK TO AI & PS*/
-#bodyAI {
+#bodyPic {
   position: absolute;
   text-align: center;
   background-color:#ffffff;
@@ -525,20 +523,20 @@ from the top of the screen) */
   color: #e0be67;
 }
 
-.airow {
+.picrow {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
-.aicolumn {
+.piccolumn {
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
 
-.aicolumn img {
+.piccolumn img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
@@ -547,7 +545,7 @@ from the top of the screen) */
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .aicolumn {
+  .piccolumn {
     flex: 50%;
     max-width: 50%;
   }
@@ -555,7 +553,7 @@ from the top of the screen) */
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .aicolumn {
+  .piccolumn {
     flex: 100%;
     max-width: 100%;
   }
