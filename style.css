@@ -542,6 +542,7 @@ from the top of the screen) */
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  image-orientation: from-image;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
