@@ -489,6 +489,9 @@ from the top of the screen) */
 #footer {
     padding: 10px;
 }
+#copyrighttext {
+    font-size: 10px;
+}
 
 
 /* LINK TO AI & PS*/
