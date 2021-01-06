@@ -1,6 +1,6 @@
 var slideIndex = 1;
 
-/*Sound*/
+
 $(() => {
 	showSlides(slideIndex);
 
