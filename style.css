@@ -77,6 +77,7 @@ h3 {
 }
 p {
   font-size: 20px;
+  color: black;
   font-style: oblique;
 }
 
@@ -123,6 +124,29 @@ li a.active {
     margin: 20px;
     font-size: 100px;
 }
+
+
+.icon-bar1 {
+  position: relative;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: block;
+}
+/* Style the icon bar links */
+.icon-bar1 a {
+padding: 20px;
+transition: all 0.3s ease;
+color: #ceccc9;
+font-size: 20px;
+display: inline-block;
+width: 10px;
+}
+
+
+
+
 #profile {
   position: relative;
   width: 90%;
@@ -288,7 +312,7 @@ li a.active {
 
 /* Fixed/sticky icon bar (vertically aligned 50% 
 from the top of the screen) */
-.icon-bar {
+.icon-bar2 {
   position: relative;
   bottom: 0px;
   -webkit-transform: translateY(-50%);
@@ -297,7 +321,7 @@ from the top of the screen) */
   display: block;
 }
 /* Style the icon bar links */
-.icon-bar a {
+.icon-bar2 a {
 padding: 16px;
 transition: all 0.3s ease;
 color: white;
@@ -305,22 +329,19 @@ font-size: 20px;
 display: inline-block;
 width: 50px;
 }
-.icon-bar a:hover {
+.icon-bar2 a:hover {
 background-color: #000;
 }
-.instagram {
+.instagram2 {
 background:  #e0be67;
-color: white;
 border-radius: 40%;
 }  
-.spotify {
+.spotify2 {
 background: #798b64;
-color: white;
 border-radius: 40%;
 }
-.linkedin {
+.linkedin2 {
 background: #e29987;
-color: white;
 border-radius: 40%;
 }
 
