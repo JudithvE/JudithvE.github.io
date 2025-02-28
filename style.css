@@ -309,11 +309,7 @@ width: 10px;
   box-shadow: 10px 10px 5px #ceccc9;
   transition: 95ms;
 }
-#portfoliopicportrait:hover{
-  width: 47%;
-  transition: 70ms;
-  transform: translateY(-1%);
-}
+
 #portfoliopiclandscape {
   position: relative;
   width: 75%;
@@ -489,6 +485,7 @@ border-radius: 40%;
 
 /* Create four equal columns that sits next to each other */
 .piccolumn {
+  flex-direction: row;
   flex: 33%;
   max-width: 33%;
   padding: 0 4px;
